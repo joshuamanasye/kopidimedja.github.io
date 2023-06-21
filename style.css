@@ -103,6 +103,10 @@ body {
   margin-left: 4rem;
 }
 
+.boxphoto {
+  object-fit: cover;
+}
+
 /* .boxphoto {
   position: absolute;
 
