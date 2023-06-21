@@ -57,6 +57,10 @@ body {
   padding-left: 10vh;
 }
 
+.menu a {
+  white-space: nowrap;
+}
+
 .section1 nav .menu a {
   color: white;
   text-decoration: none;
