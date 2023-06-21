@@ -1,0 +1,12 @@
+div .menu-og a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+div .menu-og {
+  text-align: center;
+  margin-left: -900px;
+}

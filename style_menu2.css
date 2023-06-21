@@ -1,0 +1,62 @@
+.listdaftarmakanan {
+  margin-top: 160px;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 2rem;
+}
+
+.listdaftarmakanan .makanan {
+  text-align: center;
+}
+
+.listdaftarmakanan .makanan img {
+  object-fit: cover;
+  /* width: 100%; */
+  width: 230px;
+  height: 12rem;
+  margin-bottom: 1rem;
+  border-radius: 10%;
+}
+
+.listdaftarmakanan .makanan .nama_makanan {
+  font-size: 25px;
+  color: #e5ba73;
+  font-weight: bold;
+}
+
+.listdaftarmakanan .makanan .harga_makanan {
+  padding-top: 10px;
+  font-size: 23px;
+  color: #e5ba73;
+}
+
+@media (max-width: 575.98px) {
+  .listdaftarmakanan {
+    margin-top: 160px;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .listdaftarmakanan {
+    margin-top: 160px;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .listdaftarmakanan {
+    grid-template-columns: auto auto auto auto;
+    gap: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .listdaftarmakanan {
+    grid-template-columns: auto auto auto auto auto;
+    gap: 4rem;
+  }
+}
